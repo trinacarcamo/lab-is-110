@@ -1,0 +1,110 @@
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    margin: 15px;
+}
+
+a:hover{
+    color: #B5C8C1;
+}
+
+header{
+    height: 20px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 10px;
+    background-color: black
+}
+
+header a{
+    font-weight: lighter;
+    color: white;
+    margin: 15px; 
+}
+
+header a:hover{
+    color: #8CC1C1;
+}
+
+.botones{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo img{
+    height: 40px;
+}
+
+.aviso{
+    margin: 0;
+    background-color: #687CFB;
+    padding: 1px;
+}
+
+.aviso a{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+
+.img{
+    background-image: url(bg.svg);
+    margin: 30px;
+    height: 250px;
+    
+}
+
+div h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    text-shadow: 5px 5px 7px black;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+div h2{
+    font-weight: normal;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+div h3{
+    justify-content: center;   
+}
+
+.boton{
+    border: none;   
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div h4{
+    color: #808080; 
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
